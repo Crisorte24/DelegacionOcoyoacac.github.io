@@ -443,3 +443,51 @@ h2 {
     color: #34495e;
 }
 
+/* Responsividad para pantallas pequeñas (tabletas y móviles) */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5em;
+    }
+
+    .hero-content p {
+        font-size: 1.2em;
+    }
+
+    .mision-vision {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mision, .vision {
+        width: 100%;
+    }
+
+    .service-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item {
+        width: 90%;
+    }
+
+    .contact-info {
+        width: 90%;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+    .contact-item {
+        justify-content: center;
+    }
+
+    .contact-item i {
+        margin-bottom: 10px;
+    }
+}
