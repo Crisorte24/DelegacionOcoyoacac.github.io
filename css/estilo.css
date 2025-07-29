@@ -449,6 +449,25 @@ h2 {
         padding: 10px 0;
     }
 
+    /* Estilo de texto en la barra de menú */
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        justify-content: center; /* Centra los elementos */
+    }
+
+    nav ul li {
+        margin-right: 0; /* Elimina el margen entre los elementos */
+        margin-bottom: 10px; /* Añade espacio entre los elementos */
+    }
+
+    nav ul li a {
+        padding: 10px;
+        font-size: 18px;
+        text-align: center; /* Centra el texto de los enlaces */
+    }
+
     .hero-content h2 {
         font-size: 2.5em;
     }
@@ -491,3 +510,4 @@ h2 {
         margin-bottom: 10px;
     }
 }
+
